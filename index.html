@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Classifier </title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+</head>
+<body>
+<div id="console"></div>
+<!-- Add an image that we will use to test -->
+<video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+<button id="class-a" class="button-a">Add A</button>
+<button id="class-b" class="button-b">Add B</button>
+<button id="class-c" class="button-c">Add C</button>
+<!-- Load index.js after the content of the page -->
+<script src="index.js"></script>
+
+<div class="footer">
+    <h1>Sachin Mallya</h1>
+    <p>Arizona, United States</p>
+</div>
+</body>
+</html>
